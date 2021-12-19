@@ -17,5 +17,6 @@ module.exports = {
       'error', (process.platform === 'win32' ? 'windows' : 'unix'),
     ],
     'import/prefer-default-export': 0,
+    'vue/multi-word-component-names': 0,
   },
 };
